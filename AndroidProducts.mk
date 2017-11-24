@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_walleye.mk \
-    $(LOCAL_DIR)/aosp_walleye_test.mk \
+    $(LOCAL_DIR)/carbon_walleye.mk
