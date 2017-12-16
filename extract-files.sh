@@ -17,7 +17,7 @@
 set -e
 
 VENDOR=google
-DEVICE=taimen
+DEVICE=walleye
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
