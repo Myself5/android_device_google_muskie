@@ -1,6 +1,6 @@
 # Custom board config for walleye
 # Kernel defconfig
-TARGET_KERNEL_CONFIG := carbon_taimen_defconfig
+TARGET_KERNEL_CONFIG := carbon_walleye_defconfig
 
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
@@ -12,4 +12,4 @@ TARGET_USE_SDCLANG := true
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
--include vendor/google/taimen/BoardConfigVendor.mk
+-include vendor/google/walleye/BoardConfigVendor.mk
